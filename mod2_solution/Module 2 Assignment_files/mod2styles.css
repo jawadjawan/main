@@ -1,0 +1,79 @@
+/* base styles */
+
+* {
+	box-sizing: border-box;
+	font-family: Helvetica, Arial, sans-serif;
+
+}
+
+h1 {
+	text-align: center;
+	font-size: 1.75em; /*28px;*/
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+section {
+/*	border: 1px solid red; */
+	margin: 0px;
+	padding: 8px;	
+}
+
+section p {
+	padding: 25px 10px 0px;
+	border: 1px solid black;
+	position: relative;
+	background-color: #B2AFB0;
+	margin: 0px;
+}
+
+.section_title {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	background-color: #F2ECB1;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	width: 150px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.25em;
+}
+
+#section1 .section_title {
+	background-color: #F9A4AE;
+}
+
+#section2 .section_title {
+	background-color: #CD4A1D;
+	color: white;
+}
+
+#section3 .section_title {
+	background-color: #F8F6B6;
+}
+
+/* Large screens (Desktop) - 992px and above */
+@media (min-width: 992px) {
+	section {
+		width: 33.33%;
+		float: left;
+	}
+}
+
+/* Medium screens (Tablet) - 768px to 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+	#section1, #section2 {
+		width: 50%;
+		float: left;
+	}
+
+	#section3 {
+		clear: left;
+	}
+}
+
+/* Small screens (Mobile) - 767px or less */
+@media (max-width: 767px) {
+	
+}
