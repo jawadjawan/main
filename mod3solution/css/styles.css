@@ -1,5 +1,5 @@
 * {
-	font-family: cursive;
+	font-family: 'Abhaya Libre', serif;
 }
 
 #nav-header {
@@ -31,17 +31,12 @@ nav .container {
 	background-color: #777;
 	color: #000;
 	border: 0;
-	height: 1000px;
 	width: 95%;
 	margin-bottom: 40px;
-}
-
-#content p {
 	font-size: 16px;
-	padding: 25px 10px 0px;
+	padding: 25px 20px 0px 20px;
 	position: relative;
 	background-color: #777;
-	max-height: 100%; 
 	overflow: hidden;
 }
 
@@ -53,7 +48,7 @@ nav .container {
  	color: red;
  }
 
-#nav-list{
+.nav-list{
 	background-color: #fff;
 	border: 1px solid #000;
 	color: #000;
@@ -91,6 +86,9 @@ section .container{
 	margin-top: 0;
 }
 
+.widaj{
+	width: 105%;
+}
 
 
 /*media query*/
@@ -102,4 +100,6 @@ section .container{
 	.navbar-brand {
 		font-size: 20px;
 	}
+	.widaj{
+	width: 125%;
 }
